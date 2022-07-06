@@ -20,7 +20,6 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - Showing if a instance/attribute will be affected or not if I modify externally.
 
-
 ### Encapsulation
 
   - This file I just compared the ways to protect an inportant attibute or method in the class to anyone overwrite it.
@@ -29,3 +28,8 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - Connecting two classes and using functions of each other as one.
   - Connecting the writer with two other classes and use their functions.
+
+### Aggregation
+
+  - A class access another one to run properly.
+  - There are two main files, the first one is simple and only get the price and product name to calculate the sum. The second put it in a dictionary and update the product with the quantity to avoit repeated product in the trolley.
