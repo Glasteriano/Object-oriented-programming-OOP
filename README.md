@@ -24,3 +24,8 @@ In this repository I'll put everything I learn about it and always explained in 
 ### Encapsulation
 
   - This file I just compared the ways to protect an inportant attibute or method in the class to anyone overwrite it.
+  
+### Association
+
+  - Connecting two classes and using functions of each other as one.
+  - Connecting the writer with two other classes and use their functions.
