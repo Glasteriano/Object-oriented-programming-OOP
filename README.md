@@ -14,6 +14,7 @@ In this repository I'll put everything I learn about it and always explained in 
 ### Getter and Setter
 
   - Ways to modify a previous instance or data in order to avoid errors.
+  - In the file the price was a string and not a int or float, so it was setted in a proper way to compute the discount
 
 ### Encapsulation
 
