@@ -47,3 +47,8 @@ In this repository I'll put everything I learn about it and always explained in 
       - Multi-level Inheritance - When a subclass inherits of another subclass that inherit of a Superclass.
       - Multiple Inheritance - When a subclass inherits more than one Superclass at the same time.
   - In the file I use Basic and Multi-level Inheritance as example.      
+
+### super() Function
+
+  - Super() function is related about Inheritance yet. When a subclass has the same method name of a Superclass, the subclass still no longer able to access that method in Superclass. If I still willing to access and use the Superclass method in the same function name of subclass I should use super() function.
+  - In this file I still having access of Superclass method but the subclasses do more than only call a previous method.
