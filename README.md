@@ -39,3 +39,11 @@ In this repository I'll put everything I learn about it and always explained in 
   - In this files there are a Client that may have one or more address. The address is part of Client, so when CLient is deleted, adresses atached to them also are deleted.
   - The first file just puts it in a list with no separation.
   - The second file puts in a dictionary and the key is the State/County and the cities are inside a list as value.
+  
+### Inheritance
+
+  - When a class has the same method in another class, allowing to use them. There are many ways to inherit a Superclass:
+      - Basic Inheritance - When a subclass inherit only one Superclass.
+      - Multi-level Inheritance - When a subclass inherits of another subclass that inherit of a Superclass.
+      - Multiple Inheritance - When a subclass inherits more than one Superclass at the same time.
+  - In the file I use Basic and Multi-level Inheritance as example.      
