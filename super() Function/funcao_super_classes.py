@@ -17,7 +17,7 @@ class Pessoa:
         print(f'{self.nomeclasse} está falando...')
 
 ########################################################################################################################
-"""oi oi oi"""
+
 
 class CLiente(Pessoa):
     def comprar(self):
