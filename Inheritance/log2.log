@@ -1,0 +1,16 @@
+ERROR: O usuário tentou desligar o aparelho já desligado.
+---------------------------------------
+INFO: Galaxy S22 foi ligado!
+---------------------------------------
+	ERROR: O usuário tentou desconectar o Galaxy S22 já desconectado.
+---------------------------------------
+	INFO: Galaxy S22 está conectado!
+---------------------------------------
+	INFO: Galaxy S22 foi desconectado!
+---------------------------------------
+ERROR: O usário tentou ligar o aparelho já ligado.
+---------------------------------------
+INFO: Galaxy S22 foi desligado!
+---------------------------------------
+	ERROR: O usuário tentou conectar o aparelho estando desligado.
+---------------------------------------
