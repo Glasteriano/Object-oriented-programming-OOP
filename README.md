@@ -53,3 +53,8 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - Super() function is related about Inheritance yet. When a subclass has the same method name of a Superclass, the subclass still no longer able to access that method in Superclass. If I still willing to access and use the Superclass method in the same function name of subclass I should use super() function.
   - In this file I still having access of Superclass method but the subclasses do more than only call a previous method.
+  
+### Abstract Class
+
+  - It's a class that you cannot instantiate directly, only who inherits it. This type of class act like a blueprint for their heirs giving some methods that they might have to work properly.
+  - In the file I used it in a "Bank Account" example. As every type of account has its own way of withdrawal, that method would be abstract and the heirs would set it in a proper way.
