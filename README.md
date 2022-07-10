@@ -46,7 +46,8 @@ In this repository I'll put everything I learn about it and always explained in 
       - Basic Inheritance - When a subclass inherit only one Superclass.
       - Multi-level Inheritance - When a subclass inherits of another subclass that inherit of a Superclass.
       - Multiple Inheritance - When a subclass inherits more than one Superclass at the same time.
-  - In the file I use Basic and Multi-level Inheritance as example.      
+  - In a file I use both Basic and Multi-level Inheritance as example.
+  - There are two other files using Multiple Inheritance, the first is simple and just report the actions of the smartphone to a text file that I call log. The second is a bit more complex because reports every action in another fille calld log2 separating between the device and the smartphone throught Tab space.
 
 ### super() Function
 
