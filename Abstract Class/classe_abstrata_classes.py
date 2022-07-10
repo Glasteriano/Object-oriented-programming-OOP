@@ -6,7 +6,7 @@ class Conta(ABC):  # Nâo é possível mais instanciá-la directamente, apenas o
         self._agencia = agencia
         self._conta = conta
         self._saldo = saldo
-# ___________________________________________________________________
+    # ___________________________________________________________________
 
     @property
     def agencia(self):
@@ -19,18 +19,18 @@ class Conta(ABC):  # Nâo é possível mais instanciá-la directamente, apenas o
     @property
     def saldo(self):
         return f'Teu saldo é: {self._saldo}'
-# ___________________________________________________________________
+    # ___________________________________________________________________
 
     def depositar(self, valor):
         if not isinstance(valor, (int, float)):
             raise ValueError('Valor do depósito precisa ser numérico!')
         self._saldo += valor
         self.detalhes()
-# ___________________________________________________________________
+    # ___________________________________________________________________
 
     def detalhes(self):
         print(f'Agência: {self._agencia} Conta: {self._conta} Saldo: {self._saldo}\n')
-# ___________________________________________________________________
+    # ___________________________________________________________________
 
     @abstractmethod  # Obrigando aos herdeiros a terem êsse método embutido
     def sacar(self, valor):  # Não possui nada, pois, será configurado nos herdeiros
