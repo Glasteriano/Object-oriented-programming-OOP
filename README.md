@@ -63,3 +63,8 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - When two or more functions/methods have the same name but perform different things we call it polymorphism. In Python there is only one type of polymorphism, the overriding one, that means in different or even in the same class method/function when they have the same name we will only be able to call the last method. That can also happens in inheritance when subclasses override a method of a Superclass, not being able to call that Superclass method unless it uses the super() function.
   - In the file I created a abstract method that its heirs override for their own purpose just to notice the difference between them. It's not that complex, it is to observe the polymorphism in action.
+  
+### Custom Exceptions
+
+  - We can create our own error message when there is no pre-built error in the language. It's a good way to print customised errors for developers/customers.
+  - In the file if there is no parameter in the class, it will print the error on screen. The second example raises the error and print on screen too.
