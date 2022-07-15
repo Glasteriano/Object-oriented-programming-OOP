@@ -58,3 +58,8 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - It's a class that you cannot instantiate directly, only who inherits it. This type of class act like a blueprint for their heirs giving some methods that they might have to work properly.
   - In the file I used it in a "Bank Account" example. As every type of account has its own way of withdrawal, that method would be abstract and the heirs would set it in a proper way.
+  
+### Polymorphism
+
+  - When two or more functions/methods have the same name but perform different things we call it polymorphism. In Python there is only one type of polymorphism, the overriding one, that means in different or even in the same class method/function when they have the same name we will only be able to call the last method. That can also happens in inheritance when subclasses override a method of a Superclass, not being able to call that Superclass method unless it uses the super() function.
+  - In the file I created a abstract method that its heirs override for their own purpose just to notice the difference between them. It's not that complex, it is to observe the polymorphism in action.
