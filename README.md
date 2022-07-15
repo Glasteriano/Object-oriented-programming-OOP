@@ -72,3 +72,8 @@ In this repository I'll put everything I learn about it and always explained in 
 ### Operator Overloading
 
   - We can change how an operator will act for certain types of instances. We cannot sum two classes to become only one class parameter as default, but in Python we can modify this just setting correctly how that operator will interpreter the data it will receive. Doing this we are able to sum, subtract, divide, etc a previous parameter/variable we were not able to do before, become easier to manipulate better our code and results.
+  
+### Magic Methods
+
+  - These methods are those with double underline (__) in the beginning an in the end. They are used like Operator Overloading to modify a certain action of the code.
+  - In the file I just describe some of them using examples.
