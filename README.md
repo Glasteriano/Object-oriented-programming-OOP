@@ -68,3 +68,7 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - We can create our own error message when there is no pre-built error in the language. It's a good way to print customised errors for developers/customers.
   - In the file if there is no parameter in the class, it will print the error on screen. The second example raises the error and print on screen too.
+
+### Operator Overloading
+
+  - We can change how an operator will act for certain types of instances. We cannot sum two classes to become only one class parameter as default, but in Python we can modify this just setting correctly how that operator will interpreter the data it will receive. Doing this we are able to sum, subtract, divide, etc a previous parameter/variable we were not able to do before, become easier to manipulate better our code and results.
