@@ -83,6 +83,6 @@ In this repository I'll put everything I learn about it and always explained in 
   - We use this when we want to open, connect and close that after doing what was needed, can be text file, databases and so on.
   - In the file I wrote three different ways to do it, two of them in a class and the last one just in a function.
 
-### Metaclasses
+### Metaclass
 
   - A type of class that creates another class, it is useful to check whether or not some class has an important object to work properly or make it mandatory to run code with no errors.
