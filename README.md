@@ -85,4 +85,4 @@ In this repository I'll put everything I learn about it and always explained in 
 
 ### Metaclasses
 
-  - A type of class that creates another class, it is useful for checking if some class has or not a important object to work properly or make it mandatory to run the code with no errors.
+  - A type of class that creates another class, it is useful to check whether or not some class has an important object to work properly or make it mandatory to run code with no errors.
