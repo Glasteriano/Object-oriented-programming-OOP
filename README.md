@@ -77,3 +77,8 @@ In this repository I'll put everything I learn about it and always explained in 
 
   - These methods are those with double underline (__) in the beginning an in the end. They are used like Operator Overloading to modify a certain action of the code.
   - In the file I just describe some of them using examples.
+  
+### Context Manager
+
+  - We use this when we want to open, connect and close that after doing what was needed, can be text file, databases and so on.
+  - In the file I wrote three different ways to do it, two of them in a class and the last one just in a function.
